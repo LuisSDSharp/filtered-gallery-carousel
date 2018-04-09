@@ -1,0 +1,16 @@
+.img-carousel {
+	display: flex;
+}
+
+.img-carousel__left-arrow,
+.img-carousel__right-arrow {
+	display: inline-flex;
+	width: 10%;
+	align-items: center;
+	justify-content: center;
+}
+
+.img-carousel__left-arrow__icon {
+	font-size: 5rem;
+	cursor: pointer;
+}

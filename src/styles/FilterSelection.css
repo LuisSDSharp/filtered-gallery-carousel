@@ -1,0 +1,44 @@
+.filter-container {
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-left: 10%;
+	width: max-content;
+	display: flex;
+}
+
+.filter-container__applied-filters {
+	display: flex;
+}
+
+.filter-container__applied-filters__filter {
+	display: flex;
+	background-color: white;
+	border-radius: 50px;
+	padding: 0.4em 1em;
+}
+
+.filter-container__applied-filters__filter:not(:last-child) {
+	margin-right: 0.5em;
+}
+
+.filter-container__applied-filters__filter__label {
+	color: grey;
+}
+
+.filter-container__applied-filters__filter__icon {
+	margin-left: 0.3em;
+	background-color: #f6e0c7;
+	border-radius: 50%;
+	display: inline-table;
+	width: 1.5em;
+	height: 1.5em;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.glyphicon-remove {
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+}

@@ -1,0 +1,31 @@
+.stars-container {
+	display: inline-flex;
+	justify-content: center;
+	width: 100%;
+	color: #888888;
+	padding: 0.1em 1em;
+}
+
+.stars-container__star {
+	font-size: small;
+}
+
+.stars-container__star:not(:last-child) {
+	padding-right: 4px;
+}
+
+.stars-container:hover .stars-container__star {
+	color: white;
+}
+
+.stars-container:hover .stars-container__star--outline {
+	color: #888888;
+	-webkit-text-stroke: 1px white;
+	stroke: 1px white;
+}
+
+.stars-container__star--outline {
+	color: white;
+	-webkit-text-stroke: 1px #888888;
+	stroke: 1px #888888;
+}

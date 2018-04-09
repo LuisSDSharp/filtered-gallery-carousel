@@ -1,0 +1,22 @@
+.image-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+.image-container:not(:last-child) {
+	margin-right: 2em;
+}
+
+.image-container__hearth {
+	position: absolute;
+	top: 0.7em;
+	right: 0.7em;
+	font-size: 2em;
+	color: white;
+	text-shadow: 1px 1px 1px grey;
+}
+
+.image-container__img {
+	height: 100%;
+}
